@@ -50,4 +50,8 @@ Descritores: Máscara de Proteção; Aprendizado de Máquina; Redes Neurais Conv
 - Conforme explicado no trabalho, utilizou-se um dataset sintético para o treinamento, formado a partir da concatenação de outros dois. A escolha das imagens de cada classe (sem, correta e incorreta) se deu de forma pseudo-aleatória, e esse sorteio pode ser observado em ```dataset/montagem_particoes.ipynb``` , perceba que foi utilizado a estrutura de pastas existentes nos datasets originais. Além disso, cada nova execução irá gerar um conjunto de pastas sorteadas diferentes. O código mencionado sorteia as pastas (e por consequência as imagens que a compõem). o arquivo ```dataset/1_montagem_particoes_p1.pdf``` traz o resultado para o sorteio. 
 
 - O conunto de dados para o teste foi baseado em imagens reais, a seleção buscou não inserir imagens iguais ou similares (rotações...).
-- Na pasta dataset, pode-se obter o nome das imagens utilizadas tanto no conjunto de treinamento, como no de teste. Dessa forma, basta ir nos datasets originais, e baixá-las.  
+- Na pasta dataset, pode-se obter o nome das imagens utilizadas tanto no conjunto de treinamento, como no de teste. Dessa forma, basta ir nos datasets originais, e baixá-las. 
+
+### 🤖 Modelos 🤖
+
+- Os códigos dos modelos são identificados como ```modelo-xxx-n.ipynb``` onde _xxx_ representa a arquitetura utilizada e _n_ representa a abordagem. Por sua vez, ```modelo_yyy_m.ipynb``` representam os modelos da arquitetura simples, em que yyy pode ser a arqwuitetura A, B, C ou D, e o m relembra alguns detalhes dessa arquitetura (normalização, ou escala cinza). 
