@@ -42,4 +42,5 @@ Descritores: Máscara de Proteção; Aprendizado de Máquina; Redes Neurais Conv
     
     (II) - o núcleo também foi congelado para um treinamento inicial. Foi realizado um treinamento inicial. Depois disso, o núcleo foi descongelado, e todo modelo foi treinado novamente. Perceba que ocorreram variações nos parâmetros de treinamento.
 
+- Uma sugestão é ao final do treinamento salvar o modelo treinado.
 
