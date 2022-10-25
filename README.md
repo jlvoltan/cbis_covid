@@ -31,5 +31,15 @@ Objetivo: O uso de máscaras de proteção é uma importante medida para diminui
 Descritores: Máscara de Proteção; Aprendizado de Máquina; Redes Neurais Convolucionais
 
 ### 💬 Breve explicação 💬
+- Buscamos deixar os _notebooks_ comentados com o máximo de explicações e sugestões de leituras complementares no que se refere ao processo de codificação;
+- No código, foi utilizado GPU, com a finalidade de diminuir o tempo de treinamento da Rede Neural Convolucional (CNN). Deve-se ter especial atenção à sua configuração;
+- Perceba que o dataset de treino (treino+validação) encontra-se no diretório ```D:/TCC/1/p1 ``` , enquanto o dataset de teste está em ```D:/artigo/mix ``` . Você pode alterar isso, lembre-se de editar a célula correspondente.
+- Para a arquitetura simples (A, B, C, D), observe o tópico ``` Hiper-parâmetros ```
+    - vale lembrar a codificação adotada: (A) representa o modelo com 3 canais e não normalizado, (B) o modelo em escala cinza e não normalizado, (C) com 3 canais e normalizado, e por fim (D) em escala cinza e normalizado.
+- Quanto aos modelos que utilizaram transferência de aprendizado, MobileNetV3Large, Xception e VGG19, as abordagens foram:
+
+    (I) - o núcleo foi congelado, isto é, não teve seus pesos e parâmetros ajustados durante o treinamento. 
+    
+    (II) - o núcleo também foi congelado para um treinamento inicial. Foi realizado um treinamento inicial. Depois disso, o núcleo foi descongelado, e todo modelo foi treinado novamente. Perceba que ocorreram variações nos parâmetros de treinamento.
 
 
