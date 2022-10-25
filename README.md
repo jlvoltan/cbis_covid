@@ -44,3 +44,9 @@ Descritores: Máscara de Proteção; Aprendizado de Máquina; Redes Neurais Conv
 
 - Uma sugestão é ao final do treinamento salvar o modelo treinado.
 
+### 🎲 Conjunto de dados (dataset) 🎲
+
+- Conforme explicado no trabalho, utilizou-se um dataset sintético para o treinamento, formado a partir da concatenação de outros dois. A escolha das imagens de cada classe (sem, correta e incorreta) se deu de forma pseudo-aleatória, e esse sorteio pode ser observado em _montagem_particoes.ipynb_ , perceba que foi utilizado a estrutura de pastas existentes nos datasets originais. O código mencionado sorteia as pastas (e por consequência as imagens que a compõem).
+
+- O conunto de dados para o teste foi baseado em imagens reais, a seleção buscou não inserir imagens iguais ou similares (rotações...).
+- Na pasta dataset, pode-se obter o nome das imagens utilizadas tanto no conjunto de treinamento, como no de teste. Dessa forma, basta ir nos datasets originais, e baixá-las.  
