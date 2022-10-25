@@ -4,6 +4,7 @@
 📌 Trata-se de repositório para os códigos utilizados no trabalho "Identificação automática do uso de máscaras de proteção facial: um estudo comparativo".
 O trabalho foi apresentado no XIX Congresso Brasileiro de Informática em Saúde (CBIS - 2022).
 
+✏️  Maiores explicações sobre a metodologia utilizada podem ser obtidas no referido artigo.
 
 ### 🎓 Como citar🎓 
 
@@ -46,7 +47,7 @@ Descritores: Máscara de Proteção; Aprendizado de Máquina; Redes Neurais Conv
 
 ### 🎲 Conjunto de dados (dataset) 🎲
 
-- Conforme explicado no trabalho, utilizou-se um dataset sintético para o treinamento, formado a partir da concatenação de outros dois. A escolha das imagens de cada classe (sem, correta e incorreta) se deu de forma pseudo-aleatória, e esse sorteio pode ser observado em ```dataset/montagem_particoes.ipynb``` , perceba que foi utilizado a estrutura de pastas existentes nos datasets originais. O código mencionado sorteia as pastas (e por consequência as imagens que a compõem).
+- Conforme explicado no trabalho, utilizou-se um dataset sintético para o treinamento, formado a partir da concatenação de outros dois. A escolha das imagens de cada classe (sem, correta e incorreta) se deu de forma pseudo-aleatória, e esse sorteio pode ser observado em ```dataset/montagem_particoes.ipynb``` , perceba que foi utilizado a estrutura de pastas existentes nos datasets originais. Além disso, cada nova execução irá gerar um conjunto de pastas sorteadas diferentes. O código mencionado sorteia as pastas (e por consequência as imagens que a compõem). o arquivo ```dataset/1_montagem_particoes_p1.pdf``` traz o resultado para o sorteio. 
 
 - O conunto de dados para o teste foi baseado em imagens reais, a seleção buscou não inserir imagens iguais ou similares (rotações...).
 - Na pasta dataset, pode-se obter o nome das imagens utilizadas tanto no conjunto de treinamento, como no de teste. Dessa forma, basta ir nos datasets originais, e baixá-las.  
